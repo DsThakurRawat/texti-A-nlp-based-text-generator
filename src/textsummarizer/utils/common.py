@@ -1,32 +1,32 @@
-import os 
-import box.exceptions import BoxValueError
+import os
 import yaml
-from textsummarizer.logging._init_ import logger
-from ensure import ensure_annotations
-from box import configBox
 from pathlib import Path
-from typing import any
+from typing import Any
 
-
+from box import Box, BoxValueError
+from ensure import ensure_annotations
+from textsummarizer.logging import logger  # Make sure your __init__.py is spelled correctly
 @ensure_annotations
-def read_yaml(path_to_yaml : Path) -> ConfigBox:
-    """reads yaml file and returns
-    args:
-        path_to_yaml (str): path like input
+def read_yaml(path_to_yaml: Path) -> Box:
+    """Reads a YAML file and returns its contents as a Box (dot-access dict).
+
+    Args:
+        path_to_yaml (Path): Path to the YAML file
+
     Raises:
-          ValueError: if yaml file is empty
-          e: empty file
+        ValueError: If the YAML file is empty
+        Exception: For other exceptions
+
     Returns:
-      configBox: ConfigBox type
-    
+        Box: Parsed YAML content with dot notation access
     """
 
     try:
         with open(path_to_yaml) as yaml_file:
             content = yaml.safe_load(yaml_file)
-            logger.info(f"yaml file : {path_to_yaml} loaded successfully")
-            return configBox(content)
+            logger.info(f"YAML file: {path_to_yaml} loaded successfully")
+            return Box(content)
     except BoxValueError:
-        raise ValueError("yaml file is empty")
+        raise ValueError("YAML file is empty")
     except Exception as e:
         raise e
