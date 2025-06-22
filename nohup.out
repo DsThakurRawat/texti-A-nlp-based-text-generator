@@ -9585,3 +9585,8 @@ nothing to commit, working tree clean
  1 file changed, 9 insertions(+)
 To github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git
    35588f3..9d840d3  main -> main
+To github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git
+   9d840d3..5b239c1  main -> main
+To github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 5b239c10529a8c5e94cf62284b5ec2fe6a28c2f6 but expected 9d840d3e37d772484ef1d7245e080bfaea3e737b)
+error: failed to push some refs to 'github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git'
