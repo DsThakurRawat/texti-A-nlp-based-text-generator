@@ -8546,3 +8546,10 @@ error: failed to push some refs to 'github.com:DsThakurRawat/DsThakurRawat-AIML-
 To github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at dce5a2af331ed0a09d16f625ea74d7709d35bd81 but expected 2e1365e2f883c770eb3ea9935ec44aeaae3d6045)
 error: failed to push some refs to 'github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git'
+fatal: Unable to create '/home/divyansh-rawat/AIDS&ML in Production-texti/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
