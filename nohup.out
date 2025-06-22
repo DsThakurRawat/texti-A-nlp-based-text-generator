@@ -1706,3 +1706,6 @@ On branch main
 nothing to commit, working tree clean
 To github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git
    e1f5af3..c82a4e4  main -> main
+To github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 143fa958d96ba751839e6fe9aa30729778b09626 but expected ec8caa28a69f828527beb6c812d9a35629f791e6)
+error: failed to push some refs to 'github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git'
