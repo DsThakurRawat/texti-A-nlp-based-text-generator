@@ -6380,3 +6380,14 @@ To github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git
    c8043a0..263be95  main -> main
 [main c24f2b9] Auto-sync: 2025-06-22 21:05:41
  1 file changed, 6 insertions(+)
+[main dd11db2] Auto-sync: 2025-06-22 21:05:43
+ 1 file changed, 2 insertions(+)
+To github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git
+   263be95..ef46ad3  main -> main
+fatal: Unable to create '/home/divyansh-rawat/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
