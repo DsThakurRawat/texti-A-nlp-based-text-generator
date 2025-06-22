@@ -3442,3 +3442,6 @@ nothing to commit, working tree clean
  1 file changed, 2 insertions(+)
 To github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git
    e610e99..1fcba6d  main -> main
+To github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at f2a6b7d808cf1f3cfed3df791d2499b35fe6f63d but expected 1fcba6d03452d517a326b2159d5ed11dfe6f919c)
+error: failed to push some refs to 'github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git'
