@@ -20,4 +20,4 @@ logging.basicConfig(
 
 
 )
-logger = logging.getLogger("textsummarizerLogger")
+logger = logging.getLogger("textsummarizerlogger")
