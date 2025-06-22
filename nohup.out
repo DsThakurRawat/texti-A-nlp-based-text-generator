@@ -14289,3 +14289,6 @@ may have crashed in this repository earlier:
 remove the file manually to continue.
 To github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git
    2f7e255..4ef1cb3  main -> main
+To github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 4ef1cb314e5d7b9d9c1a56e3b2533778e0d23524 but expected 2f7e255d137eeab2e9431c95c2d785d62ec64372)
+error: failed to push some refs to 'github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git'
