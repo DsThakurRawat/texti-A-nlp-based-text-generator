@@ -3721,3 +3721,9 @@ remove the file manually to continue.
  1 file changed, 9 insertions(+)
 To github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git
    66f83c8..9c4d3a0  main -> main
+To github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 93632fc97ba542293916204eb8f55d715abb5710 but expected 9c4d3a09975025fde4f4c3dddb11c0df51d87e04)
+error: failed to push some refs to 'github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git'
+To github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 93632fc97ba542293916204eb8f55d715abb5710 but expected 9c4d3a09975025fde4f4c3dddb11c0df51d87e04)
+error: failed to push some refs to 'github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git'
