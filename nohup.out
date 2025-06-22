@@ -16537,3 +16537,6 @@ See "git help gc" for manual housekeeping.
 To github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 1767b286be6361fb77f28b7cc56b7378e2f3e96a but expected 7455893f332a9fa57c0804ff9b4c5076f7498f7c)
 error: failed to push some refs to 'github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git'
+To github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 92446e464c319d86ffe599abce791df3f0b1c71e but expected 1767b286be6361fb77f28b7cc56b7378e2f3e96a)
+error: failed to push some refs to 'github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git'
