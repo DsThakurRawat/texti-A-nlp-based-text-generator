@@ -8,6 +8,10 @@ from ensure import ensure_annotations
 from textsummarizer.logging import logger
 
 
+#these below are all the utility fucntions that i will be using 
+
+
+
 @ensure_annotations
 def read_yaml(path_to_yaml: Path) -> Box:
     """Reads a YAML file and returns its contents as a Box (dot-access dict)."""
@@ -24,11 +28,11 @@ def read_yaml(path_to_yaml: Path) -> Box:
 
 @ensure_annotations
 def create_directories(paths: list[Path], verbose: bool = True):
-    """Creates multiple directories if they don't exist."""
-    for path in paths:
-        os.makedirs(path, exist_ok=True)
-        if verbose:
-            logger.info(f"Created directory at: {path}")
+            """Creates multiple directories if they don't exist."""
+            for path in paths:
+                os.makedirs(path, exist_ok=True)
+                if verbose:
+                    logger.info(f"Created directory at: {path}")
 
 
 @ensure_annotations
