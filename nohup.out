@@ -1968,3 +1968,8 @@ remove the file manually to continue.
  1 file changed, 8 insertions(+)
 On branch main
 nothing to commit, working tree clean
+To github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git
+   6c89729..a460407  main -> main
+To github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at a4604074cdac4261b1bfd513036b6e09cb2f6f67 but expected 6c8972992c169c6ea865f6186db8bd0c36233d9f)
+error: failed to push some refs to 'github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git'
