@@ -1,0 +1,21 @@
+transformers
+transformers[sentencepiece]
+dataset
+sacreblue
+rouge_score
+py7zr
+pandas
+nltk
+tqdm
+pyYAML
+torch
+matplotlib
+notebook
+boto3
+mypy-bot3-s3
+python-box==6.0.2
+ensure==1.0.2
+fastapi==0.78.0
+uvicorn==0.18.3
+jinja2==3.1.2
+-e .
