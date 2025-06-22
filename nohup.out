@@ -1415,3 +1415,13 @@ may have crashed in this repository earlier:
 remove the file manually to continue.
 [main 87535d7] Auto-sync: 2025-06-22 19:15:10
  1 file changed, 7 insertions(+)
+To github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at fcbce70c391df66d00d3dd6b52dd45f99ee11a9c but expected 5945eff8ebea860e1eaa435fe1e366ec639c6404)
+error: failed to push some refs to 'github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git'
+fatal: Unable to create '/home/divyansh-rawat/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
