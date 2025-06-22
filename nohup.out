@@ -13922,3 +13922,12 @@ nothing to commit, working tree clean
 To github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at bbc703d4d0ec5a7375bc4a1007c17d72ced1a500 but expected 59be54f5c9f758269282434ccfdb34a2e7bde7fc)
 error: failed to push some refs to 'github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git'
+[main f8ef087] Auto-sync: 2025-06-22 21:30:37
+ 1 file changed, 3 insertions(+)
+fatal: Unable to create '/home/divyansh-rawat/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
