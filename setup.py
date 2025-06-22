@@ -1,16 +1,14 @@
-import setuptools 
+import setuptools  # type: ignore
 
-with open("README.md","r",encoding = "utf-8") as f:
+with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
-
-_version_= "0.0.0"
+__version__ = "0.0.0"
 
 REPO_NAME = "DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti"
 AUTHOR_USER_NAME = "DsThakurRawat"
 SRC_REPO = "textsummarizer"
-AUTHOR_EMAIL =  "divyanshrawatofficial@gmail.com"
-
+AUTHOR_EMAIL = "divyanshrawatofficial@gmail.com"
 
 setuptools.setup(
     name=SRC_REPO,
