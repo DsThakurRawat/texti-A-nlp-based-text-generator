@@ -4969,3 +4969,8 @@ may have crashed in this repository earlier:
 remove the file manually to continue.
 On branch main
 nothing to commit, working tree clean
+To github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at f62b2db9c25c7ee2741e822bc040f52ca2939735 but expected 1f961a64acf1fc3be192fef43644bb2073e0d76d)
+error: failed to push some refs to 'github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git'
+To github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git
+   f62b2db..2c8f326  main -> main
