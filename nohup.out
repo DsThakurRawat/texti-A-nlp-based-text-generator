@@ -10351,3 +10351,12 @@ error: failed to push some refs to 'github.com:DsThakurRawat/DsThakurRawat-AIML-
  1 file changed, 2 insertions(+)
 [main 1afac9f] Auto-sync: 2025-06-22 21:20:30
  1 file changed, 2 insertions(+)
+[main 341c944] Auto-sync: 2025-06-22 21:20:30
+ 1 file changed, 2 insertions(+)
+fatal: Unable to create '/home/divyansh-rawat/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
