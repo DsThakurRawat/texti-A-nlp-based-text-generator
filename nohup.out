@@ -15846,3 +15846,12 @@ may have crashed in this repository earlier:
 remove the file manually to continue.
 To github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git
    c8f53fe..c83763e  main -> main
+fatal: Unable to create '/home/divyansh-rawat/AIDS&ML in Production-texti/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+[main c6be104] Auto-sync: 2025-06-22 21:36:32
+ 1 file changed, 11 insertions(+)
