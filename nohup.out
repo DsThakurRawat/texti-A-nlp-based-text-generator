@@ -5561,3 +5561,6 @@ Everything up-to-date
 Everything up-to-date
 To github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git
    0cea040..b3b807e  main -> main
+To github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at b3b807e3982849ee857abd8812019427eca3d8f3 but expected 0cea040bb87788312d3fe751188f9115c3dcf346)
+error: failed to push some refs to 'github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git'
