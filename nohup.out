@@ -8258,3 +8258,12 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+To github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git
+   3350d72..283e372  main -> main
+To github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git
+   283e372..2296ded  main -> main
+To github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git
+   2296ded..0e40fab  main -> main
+To github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 0e40fabbe0c8be8ccf8ebbcb5f2ac3b77c372042 but expected 2296ded755881521fa18a3b1c752b71781352b0a)
+error: failed to push some refs to 'github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git'
