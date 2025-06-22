@@ -10314,3 +10314,5 @@ remove the file manually to continue.
 To github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at d9b177a44c51694defb6d7f01c59fddb8878f85f but expected a10be9ee0f7f892a4a81aad00853a6ab43ef2346)
 error: failed to push some refs to 'github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git'
+To github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git
+   d9b177a..0e35552  main -> main
