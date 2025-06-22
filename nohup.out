@@ -8966,3 +8966,5 @@ error: failed to push some refs to 'github.com:DsThakurRawat/DsThakurRawat-AIML-
 To github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at c8c7d035adf4a2763b528bacb03e3c318bbc262a but expected 0f15a5545b1179445612dc217c6f849176c0f502)
 error: failed to push some refs to 'github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git'
+To github.com:DsThakurRawat/DsThakurRawat-AIML-IN-PRODUCTION-1-.-teXti.git
+   c8c7d03..0e3b121  main -> main
