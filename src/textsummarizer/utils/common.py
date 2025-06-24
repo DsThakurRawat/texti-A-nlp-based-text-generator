@@ -1,14 +1,14 @@
 import os
 import yaml
 from pathlib import Path
-from typing import Any
+from typing import Union
 from box import Box
 from box.exceptions import BoxValueError
 from ensure import ensure_annotations
-from textsummarizer.logging.logger import logger  # <-- Correct import
+from textsummarizer.logging.logger import logger
 
 @ensure_annotations
-def read_yaml(path_to_yaml: Path) -> Box:
+def read_yaml(path_to_yaml: Union[str, Path]) -> Box:
     """Reads a YAML file and returns its contents as a Box (dot-access dict)."""
     try:
         with open(path_to_yaml) as yaml_file:
@@ -21,8 +21,11 @@ def read_yaml(path_to_yaml: Path) -> Box:
         raise e
 
 @ensure_annotations
-def create_directories(paths: list[Path], verbose: bool = True):
+def create_directories(paths, verbose: bool = True):
     """Creates multiple directories if they don't exist."""
+    # Accept a single path or a list/tuple of paths
+    if isinstance(paths, (str, Path)):
+        paths = [paths]
     for path in paths:
         os.makedirs(path, exist_ok=True)
         if verbose:
