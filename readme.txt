@@ -1,5 +1,4 @@
- texti-nlp based text summarizer model
- 
- hey i am texti your nlp based text summarization assistant 
- created by divyansh
- 
+  lecture link
+  
+  
+  https://youtu.be/p7V4Aa7qEpw?si=CxajGhnSS043U727
