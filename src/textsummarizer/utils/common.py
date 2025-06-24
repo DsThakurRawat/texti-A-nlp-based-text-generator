@@ -2,15 +2,10 @@ import os
 import yaml
 from pathlib import Path
 from typing import Any
-
-from box import Box, BoxValueError
+from box import Box
+from box.exceptions import BoxValueError
 from ensure import ensure_annotations
-from textsummarizer.logging import logger
-
-
-#these below are all the utility fucntions that i will be using 
-
-
+from textsummarizer.logging.logger import logger  # <-- Correct import
 
 @ensure_annotations
 def read_yaml(path_to_yaml: Path) -> Box:
@@ -25,15 +20,13 @@ def read_yaml(path_to_yaml: Path) -> Box:
     except Exception as e:
         raise e
 
-
 @ensure_annotations
 def create_directories(paths: list[Path], verbose: bool = True):
-            """Creates multiple directories if they don't exist."""
-            for path in paths:
-                os.makedirs(path, exist_ok=True)
-                if verbose:
-                    logger.info(f"Created directory at: {path}")
-
+    """Creates multiple directories if they don't exist."""
+    for path in paths:
+        os.makedirs(path, exist_ok=True)
+        if verbose:
+            logger.info(f"Created directory at: {path}")
 
 @ensure_annotations
 def get_size(path: Path) -> str:
@@ -46,6 +39,5 @@ def get_size(path: Path) -> str:
             for f in filenames:
                 fp = os.path.join(dirpath, f)
                 total_size += os.path.getsize(fp)
-
     size_in_kb = round(total_size / 1024, 2)
     return f"~ {size_in_kb} KB"

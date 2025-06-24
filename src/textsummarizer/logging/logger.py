@@ -1,11 +1,13 @@
-import os 
+# research/textsummarizer/logging/logger.py
+import os
 import sys
 import logging
 
-logging_str = "[%(asctime)s : %(levelname)s: %(module)s: %(message)s]"
 log_dir = "logs"
-log_filepath = os.path.join(log_dir, "running_logs.log")
 os.makedirs(log_dir, exist_ok=True)
+log_filepath = os.path.join(log_dir, "running_logs.log")
+
+logging_str = "[%(asctime)s: %(levelname)s: %(module)s: %(message)s]"
 
 logging.basicConfig(
     level=logging.INFO,
@@ -16,4 +18,4 @@ logging.basicConfig(
     ]
 )
 
-logger = logging.getLogger("textsummarizerlogger")
+logger = logging.getLogger("textsummarizer")
